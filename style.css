@@ -1,9 +1,11 @@
 body {
     margin: 0;
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
 
-.hero {
+.hero, .footer {
     background-color: #1F2937;
     padding-left: 150px;
     padding-right: 150px;   
@@ -48,11 +50,6 @@ button {
     width: 90px;
 }
 
-img {
-    height: 175px;
-    width: 300px;
-}
-
 #hero-sign-up {
     background-color: #3882F6;
     color: white;
@@ -62,3 +59,65 @@ img {
     display: flex;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    height: 200px;
+    width: 100px;
+    text-align: center;
+}
+
+.headerinfo {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column; 
+}
+
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.marketing {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
